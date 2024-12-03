@@ -1,0 +1,34 @@
+.containerBody {
+  background-image: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  gap: 20px;
+}
+
+.containerBody h1 {
+  max-width: 495px;
+  color: #ffff;
+  font-weight: 800;
+}
+.containerBody p {
+  color: #ffff;
+  color: #ffff;
+  max-width: 495px;
+  font-weight: 500;
+}
+.containerBody button {
+  width: 495px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ff8c38;
+  border: none;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
